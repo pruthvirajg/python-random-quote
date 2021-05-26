@@ -8,9 +8,9 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  print(quotes[rnd])
-  print(quotes[rnd +1])
-  print(quotes[rnd-1])
+  print(quotes[rnd],end="")
+  print(quotes[rnd +1],end="")
+  print(quotes[rnd-1],end="")
 
 if __name__== "__main__":
   import random

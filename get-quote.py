@@ -7,6 +7,11 @@ def primary():
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
+  
+  f = open("quotes.txt","a")
+  f.write("Failures are steping stones of success")
+  f.close()
+  
 
   print(quotes[rnd],end="")
   print(quotes[rnd +1],end="")
